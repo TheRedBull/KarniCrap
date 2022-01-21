@@ -602,6 +602,12 @@ function CheckLoot(itemID)
 	elseif itemID == "124437" then
 		if KarniCrapConfig.Cloth_ShaldoreiSilk then return true, "Shal'dorei Silk"
 		elseif KarniCrapConfig.Cloth_ShaldoreiSilk_Never then return nil, "Shal'dorei Silk" end
+	elseif itemID == "152576" then
+		if KarniCrapConfig.Cloth_ShaldoreiSilk then return true, "Tidespray Linen"
+		elseif KarniCrapConfig.Cloth_ShaldoreiSilk_Never then return nil, "Tidespray Linen" end
+	elseif itemID == "173202" then
+		if KarniCrapConfig.Cloth_ShaldoreiSilk then return true, "Shrouded Cloth"
+		elseif KarniCrapConfig.Cloth_ShaldoreiSilk_Never then return nil, "Shrouded Cloth" end
 	end
 
 	--[[ Scrolls ]]--

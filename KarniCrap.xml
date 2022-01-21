@@ -83,8 +83,6 @@
 			<Onload>
 				self:SetOwner(WorldFrame, "ANCHOR_NONE");
 				self:SetScale(.75);
-				self:SetBackdropBorderColor(TOOLTIP_DEFAULT_COLOR.r, TOOLTIP_DEFAULT_COLOR.g, TOOLTIP_DEFAULT_COLOR.b);
-				self:SetBackdropColor(TOOLTIP_DEFAULT_BACKGROUND_COLOR.r, TOOLTIP_DEFAULT_BACKGROUND_COLOR.g, TOOLTIP_DEFAULT_BACKGROUND_COLOR.b);
 			</Onload>
 		</Scripts>
 	</GameTooltip>
@@ -479,7 +477,7 @@
 	<!-- MAIN WINDOW -->
 	<!-- MAIN WINDOW -->
 	<Frame name="KarniCrap" hidden="true" parent="UIParent" movable="true" inherits="KarniBasicFrameTemplateWithInset">
-		<Size x="384" y="458" />
+		<Size x="384" y="498" /> <!-- UX note: add 20 to y for each new cloth added in 'Category: CLOTH' --> <!-- TODO: Add scroll to right pane -->
 		<Anchors><Anchor point="TOPLEFT" x="0" y="-104" /></Anchors>
 		<Layers>
 			<Layer level="BACKGROUND">
@@ -2139,6 +2137,92 @@
 									_G["KarniCrap_Cloth_CBShaldoreiSilk"]:SetChecked(false);
 								else
 									KarniCrapConfig.Cloth_ShaldoreiSilk_Never = false;
+								end
+							</OnClick>
+						</Scripts>
+					</CheckButton>
+
+					<!-- Tidespray Linen -->
+					<CheckButton name="$parent_CBTidesprayLinen" inherits="MyCheckButton">
+						<Anchors>
+							<Anchor point="TOPLEFT" relativePoint="BOTTOMLEFT" relativeTo="$parent_CBShaldoreiSilk">
+								<Offset x="0" y="5" />
+							</Anchor>
+						</Anchors>
+						<Layers>
+							<Layer>
+								<FontString name="$parent_Text" inherits="GameFontNormalSmall" text="|cFFFFFFFF[Tidespray Linen]">
+									<Anchors><Anchor point="LEFT"><Offset x="-165" y="1" /></Anchor></Anchors>
+								</FontString>
+							</Layer>
+						</Layers>
+						<Scripts>
+							<OnClick>
+								if (self:GetChecked()) then
+									KarniCrapConfig.Cloth_TidesprayLinen = true;
+									KarniCrapConfig.Cloth_TidesprayLinen_Never = false;
+									_G["KarniCrap_Cloth_CBTidesprayLinen_Never"]:SetChecked(false);
+								else
+									KarniCrapConfig.Cloth_TidesprayLinen = false;
+								end
+							</OnClick>
+						</Scripts>
+					</CheckButton>
+
+					<!-- Tidespray Linen never -->
+					<CheckButton name="$parent_CBTidesprayLinen_Never" inherits="MyCheckButton">
+						<Anchors><Anchor point="TOPLEFT" relativePoint="TOPRIGHT" relativeTo="$parent_CBTidesprayLinen"><Offset x="0" y="0" /></Anchor></Anchors>
+						<Scripts>
+							<OnClick>
+								if (self:GetChecked()) then
+									KarniCrapConfig.Cloth_TidesprayLinen_Never = true;
+									KarniCrapConfig.Cloth_TidesprayLinen = false;
+									_G["KarniCrap_Cloth_CBTidesprayLinen"]:SetChecked(false);
+								else
+									KarniCrapConfig.Cloth_TidesprayLinen_Never = false;
+								end
+							</OnClick>
+						</Scripts>
+					</CheckButton>
+
+					<!-- Shrouded Cloth -->
+					<CheckButton name="$parent_CBShroudedCloth" inherits="MyCheckButton">
+						<Anchors>
+							<Anchor point="TOPLEFT" relativePoint="BOTTOMLEFT" relativeTo="$parent_CBTidesprayLinen">
+								<Offset x="0" y="5" />
+							</Anchor>
+						</Anchors>
+						<Layers>
+							<Layer>
+								<FontString name="$parent_Text" inherits="GameFontNormalSmall" text="|cFFFFFFFF[Shrouded Cloth]">
+									<Anchors><Anchor point="LEFT"><Offset x="-165" y="1" /></Anchor></Anchors>
+								</FontString>
+							</Layer>
+						</Layers>
+						<Scripts>
+							<OnClick>
+								if (self:GetChecked()) then
+									KarniCrapConfig.Cloth_ShroudedCloth = true;
+									KarniCrapConfig.Cloth_ShroudedCloth_Never = false;
+									_G["KarniCrap_Cloth_CBShroudedCloth_Never"]:SetChecked(false);
+								else
+									KarniCrapConfig.Cloth_ShroudedCloth = false;
+								end
+							</OnClick>
+						</Scripts>
+					</CheckButton>
+
+					<!-- Shrouded Cloth never -->
+					<CheckButton name="$parent_CBShroudedCloth_Never" inherits="MyCheckButton">
+						<Anchors><Anchor point="TOPLEFT" relativePoint="TOPRIGHT" relativeTo="$parent_CBShroudedCloth"><Offset x="0" y="0" /></Anchor></Anchors>
+						<Scripts>
+							<OnClick>
+								if (self:GetChecked()) then
+									KarniCrapConfig.Cloth_ShroudedCloth_Never = true;
+									KarniCrapConfig.Cloth_ShroudedCloth = false;
+									_G["KarniCrap_Cloth_CBShroudedCloth"]:SetChecked(false);
+								else
+									KarniCrapConfig.Cloth_ShroudedCloth_Never = false;
 								end
 							</OnClick>
 						</Scripts>
