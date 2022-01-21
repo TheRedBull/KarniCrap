@@ -191,7 +191,7 @@ function KarniCrap_InitializeUI()
 	KarniCrap_Cloth_CBWindwool:SetChecked(KarniCrapConfig.Cloth_Windwool)
 	KarniCrap_Cloth_CBSumptuousFur:SetChecked(KarniCrapConfig.Cloth_SumptuousFur)
 	KarniCrap_Cloth_CBShaldoreiSilk:SetChecked(KarniCrapConfig.Cloth_ShaldoreiSilk)
-	KarniCrap_Cloth_CBTidesprayLinen:SetChecked(KarniCrapConfig.TidesprayLinen)
+	KarniCrap_Cloth_CBTidesprayLinen:SetChecked(KarniCrapConfig.Cloth_TidesprayLinen)
 	KarniCrap_Cloth_CBShroudedCloth:SetChecked(KarniCrapConfig.Cloth_ShroudedCloth)
 	-- cloth never
 	KarniCrap_Cloth_CBLinen_Never:SetChecked(KarniCrapConfig.Cloth_Linen_Never)

@@ -57,9 +57,9 @@ tradeskillList	= {
 	[29354]		= "Mining", 		-- Master
 	[50310]		= "Mining", 		-- Grand Master
 	[74517]		= "Mining", 		-- Illustrious
-	[102161]	= "Mining",		-- Zen Master
-	[158754]	= "Mining",		-- Draenor Master
-	[195122]	= "Mining",		-- Legion Master
+	[102161]	= "Mining",			-- Zen Master
+	[158754]	= "Mining",			-- Draenor Master
+	[195122]	= "Mining",			-- Legion Master
 -- Skinning
 	[8613]		= "Skinning", 		-- Apprentice
 	[8617]		= "Skinning", 		-- Journeyman

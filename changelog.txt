@@ -38,7 +38,7 @@ Current known issues
 
 Changelog
 -------------------------------------------------------------------------------
-v9.0.1.2
+v9.1.5.1
 	- TOC updated for 9.1.5
 	- Added BFA and SL cloth (credits: TheRedBull@github)
 
