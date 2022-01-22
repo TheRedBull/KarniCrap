@@ -37,6 +37,9 @@ tradeskillList	= {
 	[110403]	= "Engineering",	-- Zen Master
 	[158739]	= "Engineering",	-- Draenor Master
 	[195112]	= "Engineering",	-- Legion Master
+	[264492]	= "Engineering",	-- Kul Tiran Engineering
+	[265807]	= "Engineering",	-- Zandalari Engineering
+	[310542]	= "Engineering",	-- Shadowlands
 	[49383]		= "Engineering", 	-- Corpses
 -- Herb Gathering
 	[2366]		= "Herb Gathering",	-- Apprentice
@@ -49,6 +52,9 @@ tradeskillList	= {
 	[110413]	= "Herb Gathering",	-- Zen Master
 	[158745]	= "Herb Gathering",	-- Draenor Master
 	[195114]	= "Herb Gathering",	-- Legion Herbalism
+	[265831]	= "Herb Gathering",	-- Kul Tiran Herbalism
+	[265835]	= "Herb Gathering",	-- Zandalari Herbalism
+	[310543]	= "Herb Gathering",	-- Shadowlands
 -- Mining
 	[2575] 		= "Mining", 		-- Apprentice
 	[2576] 		= "Mining", 		-- Journeyman
@@ -60,6 +66,9 @@ tradeskillList	= {
 	[102161]	= "Mining",			-- Zen Master
 	[158754]	= "Mining",			-- Draenor Master
 	[195122]	= "Mining",			-- Legion Master
+	[265851]	= "Mining",			-- Kul Tiran Mining
+	[265853]	= "Mining",			-- Zandalari Mining
+	[309835]	= "Mining",			-- Shadowlands
 -- Skinning
 	[8613]		= "Skinning", 		-- Apprentice
 	[8617]		= "Skinning", 		-- Journeyman
@@ -71,6 +80,9 @@ tradeskillList	= {
 	[102216]	= "Skinning",		-- Zen Master
 	[158756]	= "Skinning",		-- Draenor Master
 	[195125]	= "Skinning",		-- Legion Skinning
+	[265869]	= "Skinning",		-- Kul Tiran Skinning
+	[265871]	= "Skinning",		-- Zandalari Skinning
+	[308569]	= "Skinning",		-- Shadowlands
 -- Milling
 	[51005]		= "Milling", 		-- No levels
 -- Prospecting

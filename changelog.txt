@@ -38,6 +38,9 @@ Current known issues
 
 Changelog
 -------------------------------------------------------------------------------
+v9.1.5.2
+	- Adds BFA and SL tradeskills - looks to be issues with gathering nodes in BFA... will have to investigate
+
 v9.1.5.1
 	- TOC updated for 9.1.5
 	- Added BFA and SL cloth (credits: TheRedBull@github)
