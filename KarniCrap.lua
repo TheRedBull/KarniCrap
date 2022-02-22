@@ -379,7 +379,8 @@ function KarniCrap_OnEvent(self, event, ...)
 	-- an item in your bag automatically forcing a "loot all" situation
 	-- The tradeskillList[] check should catch them anyway though.
 		using_tradeskill = nil
-	if tradeskillList[arg5] then -- check if the spell cast is a tradeskill
+	-- if tradeskillList[arg5] then -- check if the spell (ID) cast is a tradeskill
+	if tradeskillList[arg2] then -- check if the spell (name) cast is a tradeskill
 			using_tradeskill = true
 			loot_all = true
 		else
@@ -1121,6 +1122,8 @@ function KarniCrap_Loaded()
 	if KarniCrapConfig.Cloth_Windwool == nil then KarniCrapConfig.Cloth_Windwool = false end
 	if KarniCrapConfig.Cloth_SumptuousFur == nil then KarniCrapConfig.Cloth_SumptuousFur = false end
 	if KarniCrapConfig.Cloth_ShaldoreiSilk == nil then KarniCrapConfig.Cloth_ShaldoreiSilk = false end
+	if KarniCrapConfig.Cloth_TidesprayLinen == nil then KarniCrapConfig.Cloth_TidesprayLinen = false end
+	if KarniCrapConfig.Cloth_ShroudedCloth == nil then KarniCrapConfig.Cloth_ShroudedCloth = false end
 
 	-- cloth never
 	if KarniCrapConfig.Cloth_Linen_Never == nil then KarniCrapConfig.Cloth_Linen_Never = false end
@@ -1134,7 +1137,9 @@ function KarniCrap_Loaded()
 	if KarniCrapConfig.Cloth_Windwool_Never == nil then KarniCrapConfig.Cloth_Windwool_Never = false end
 	if KarniCrapConfig.Cloth_SumptuousFur_Never == nil then KarniCrapConfig.Cloth_SumptuousFur_Never = false end
 	if KarniCrapConfig.Cloth_ShaldoreiSilk_Never == nil then KarniCrapConfig.Cloth_ShaldoreiSilk_Never = false end
-
+	if KarniCrapConfig.Cloth_TidesprayLinen_Never == nil then KarniCrapConfig.Cloth_TidesprayLinen_Never = false end
+	if KarniCrapConfig.Cloth_ShroudedCloth_Never == nil then KarniCrapConfig.Cloth_ShroudedCloth_Never = false end
+	
 	-- scroll settings
 	if KarniCrapConfig.ScrollMax == nil then KarniCrapConfig.ScrollMax = true end
 	if KarniCrapConfig.Scroll_Agility == nil then KarniCrapConfig.Scroll_Agility = false end

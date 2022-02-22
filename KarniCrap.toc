@@ -1,9 +1,9 @@
-## Interface: 90105
+## Interface: 90200
 ## Author: Karnifex
 ## Title: Karni's Crap Filter
 ## Notes: A snazzy autolooter with value filtering, item white/blacklisting, and more!
-## Version: 9.1.5.2
-## X-Curse-Packaged-Version: 9.1.5.2
+## Version: 9.2.0.1
+## X-Curse-Packaged-Version: 9.2.0.1
 ## X-Curse-Project-Name: Karni's Crap Filter
 ## X-Curse-Project-ID: karnicrap
 ## X-WoWI-ID: 9441
@@ -13,27 +13,27 @@
 ## X-Credits-Maintainer: Brusk, Khymar, TheRedBull
 ## SavedVariablesPerCharacter: KarniCrapConfig, KarniBlacklist, KarniWhitelist
 
-libs\lib_Food.lua
-libs\lib_Water.lua
-libs\lib_Potions.lua
-libs\lib_Scrolls.lua
 libs\lib_Cloth.lua
 libs\lib_Cooking.lua
-libs\lib_MobsMinable.lua
-libs\lib_MobsGatherable.lua
-libs\lib_MobsSkinnable.lua
+libs\lib_Food.lua
 libs\lib_MobsEngineerable.lua
+libs\lib_MobsGatherable.lua
+libs\lib_MobsMinable.lua
+libs\lib_MobsSkinnable.lua
+libs\lib_Potions.lua
+libs\lib_Scrolls.lua
 libs\lib_Tradeskills.lua
+libs\lib_Water.lua
 
-kc_utils.lua
 kc_blacklist.lua
-kc_whitelist.lua
 kc_destroy.lua
+kc_utils.lua
+kc_whitelist.lua
 
 kc_category.lua
 
 embeds.xml
 KarniCrap.xml
 
-kc_inventory.lua 
 initialize.lua
+kc_inventory.lua 

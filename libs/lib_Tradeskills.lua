@@ -26,6 +26,7 @@
 tradeskillList	= {
 -- Disenchant
 	[13262]		= "Disenchant", 	-- No levels
+
 -- Engineering
 	[4036]		= "Engineering", 	-- Apprentice
 	[4037]		= "Engineering", 	-- Journeyman
@@ -41,6 +42,7 @@ tradeskillList	= {
 	[265807]	= "Engineering",	-- Zandalari Engineering
 	[310542]	= "Engineering",	-- Shadowlands
 	[49383]		= "Engineering", 	-- Corpses
+
 -- Herb Gathering
 	[2366]		= "Herb Gathering",	-- Apprentice
 	[2368]		= "Herb Gathering",	-- Journeyman
@@ -55,6 +57,7 @@ tradeskillList	= {
 	[265831]	= "Herb Gathering",	-- Kul Tiran Herbalism
 	[265835]	= "Herb Gathering",	-- Zandalari Herbalism
 	[310543]	= "Herb Gathering",	-- Shadowlands
+
 -- Mining
 	[2575] 		= "Mining", 		-- Apprentice
 	[2576] 		= "Mining", 		-- Journeyman
@@ -69,6 +72,7 @@ tradeskillList	= {
 	[265851]	= "Mining",			-- Kul Tiran Mining
 	[265853]	= "Mining",			-- Zandalari Mining
 	[309835]	= "Mining",			-- Shadowlands
+
 -- Skinning
 	[8613]		= "Skinning", 		-- Apprentice
 	[8617]		= "Skinning", 		-- Journeyman
@@ -83,10 +87,13 @@ tradeskillList	= {
 	[265869]	= "Skinning",		-- Kul Tiran Skinning
 	[265871]	= "Skinning",		-- Zandalari Skinning
 	[308569]	= "Skinning",		-- Shadowlands
+
 -- Milling
 	[51005]		= "Milling", 		-- No levels
+
 -- Prospecting
 	[31252]		= "Prospecting",	-- No levels
+
 -- Fishing (Should this one count as a tradeskill?)
 --	[7620] 		= "Fishing", 		-- Apprentice
 --	[7731] 		= "Fishing", 		-- Journeyman
@@ -97,6 +104,7 @@ tradeskillList	= {
 --	[88868]		= "Fishing", 		-- Illustrious
 --	[110410]	= "Fishing",		-- Zen Master
 --	[158743]	= "Fishing",		-- Draenor Master
+
 -- Archaeology (Not sure if this triggers a loot window)
 --	[78670]		= "Archaeology", 	-- Apprentice
 --	[88961]		= "Archaeology", 	-- Journeyman
@@ -107,6 +115,7 @@ tradeskillList	= {
 --	[89722]		= "Archaeology", 	-- Illustrious
 --	[110393]	= "Archaeology",	-- Zen Master
 --	[158762]	= "Archaeology",	-- Draenor Master
+
 -- Alchemy (No loot window)
 --	[2259] 		= "Alchemy", 		-- Apprentice
 --	[3101] 		= "Alchemy", 		-- Journeyman
@@ -118,6 +127,7 @@ tradeskillList	= {
 --	[105206]	= "Alchemy",		-- Zen Master
 --	[156606]	= "Alchemy",		-- Draenor Master
 --	[195095]	= "Alchemy",		-- Legion Master
+
 -- Blacksmithing (No loot window)
 --	[2018]		= "Blacksmithing", 	-- Apprentice
 --	[3100]		= "Blacksmithing", 	-- Journeyman
@@ -129,6 +139,7 @@ tradeskillList	= {
 --	[110396]	= "Blacksmithing",	-- Zen Master
 --	[158737]	= "Blacksmithing",	-- Draenor Master
 --	[195057]	= "Blacksmithing",	-- Legion Blacksmithing
+
 -- Enchanting (No loot window)
 --	[7411]		= "Enchanting", 	-- Apprentice
 --	[7412]		= "Enchanting", 	-- Journeyman
@@ -140,6 +151,7 @@ tradeskillList	= {
 --	[110400]	= "Enchanting",		-- Zen Master
 --	[158716]	= "Enchanting",		-- Draenor Master
 --	[195096]	= "Enchanting",		-- Legion Enchanting
+
 -- Inscription (Not sure if this triggers a loot window)
 --	[45357]		= "Inscription", 	-- Apprentice
 --	[45358]		= "Inscription", 	-- Journeyman
@@ -151,6 +163,7 @@ tradeskillList	= {
 --	[110417]	= "Inscription",	-- Zen Master
 --	[158748]	= "Inscription",	-- Draenor Master
 --	[195115]	= "Inscription",	-- Legion Master
+
 -- Jewelcrafting (Not sure if this triggers a loot window)
 --	[25229]		= "Jewelcrafting", 	-- Apprentice
 --	[25230]		= "Jewelcrafting", 	-- Journeyman
@@ -162,6 +175,7 @@ tradeskillList	= {
 --	[110420]	= "Jewelcrafting",	-- Zen Master
 --	[158750]	= "Jewelcrafting",	-- Draenor Master
 --	[195116]	= "Jewelcrafting",	-- Legion Master
+
 -- Leatherworking (No loot window)
 --	[2108]		= "Leatherworking",	-- Apprentice
 --	[3104]		= "Leatherworking",	-- Journeyman
@@ -173,6 +187,7 @@ tradeskillList	= {
 --	[110423]	= "Leatherworking",	-- Zen Master
 --	[158752]	= "Leatherworking",	-- Draenor Master
 --	[195119]	= "Leatherworking",	-- Legion Master
+
 -- Tailoring (No loot window)
 --	[3908] 		= "Tailoring", 		-- Apprentice
 --	[3909] 		= "Tailoring", 		-- Journeyman
@@ -184,6 +199,7 @@ tradeskillList	= {
 --	[110426]	= "Tailoring",		-- Zen Master
 --	[158758]	= "Tailoring",		-- Draenor Master
 --	[195126]	= "Tailoring",		-- Legion Master
+
 -- Smelting (No loot window)
 --	[2656] 		= "Smelting", 		-- No levels
 }

@@ -24,72 +24,82 @@
 -------------------------------------------------------------------------------
 
 -- [item id] = required level, --name
-Scrolllevel_List = { "I", "II", "III", "IV", "V", "VI", "VII" }
+Scrolllevel_List = { "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX" }
 
+-- https://www.wowhead.com/items/consumables/other/name:scroll?filter=21;1;0 --
 ScrollList_Agility = {
-	["3012"] = 10, 	--Agility
-	["1477"] = 25, 	--Agility II
-	["4425"] = 40, 	--Agility III
-	["10309"] = 55, --Agility IV
-	["27498"] = 60,	--Agility V
-	["33457"] = 70,	--Agility VI
-	["43463"] = 80	--Agility VII
-	--["43464"] = 80 --Agility VIII
-	--["63303"] = 80 --Agility IX 
+	["3012"]	= 1, 	--Agility
+	["1477"]	= 7, 	--Agility II
+	["4425"]	= 13, 	--Agility III
+	["10309"]	= 17, 	--Agility IV
+	["27498"]	= 21,	--Agility V
+	["33457"]	= 25,	--Agility VI
+	["43463"]	= 27,	--Agility VII
+	["43464"]	= 30, 	--Agility VIII
+	["63303"]	= 30 	--Agility IX 
 }
-ScrollList_Intellect = {	
-	["955"] 	= 5,	--Intellect
-	["2290"] 	= 20, --Intellect II
-	["4419"] 	= 35, --Intellect III
-	["10308"] = 50, --Intellect IV
-	["27499"] = 60,	--Intellect V
-	["33458"] = 70,	--Intellect VI
-	["37091"] = 80	--Intellect VII
-	--["37092"] = 80 --Intellect VIII
-	--["63305"] = 80 --Intellect IX
 
+-- https://www.wowhead.com/items/consumables/other/name:scroll?filter=23;1;0 --
+ScrollList_Intellect = {
+	["955"] 	= 5,	--Intellect
+	["2290"] 	= 7, 	--Intellect II
+	["4419"] 	= 13, 	--Intellect III
+	["10308"] 	= 17, 	--Intellect IV
+	["27499"] 	= 21,	--Intellect V
+	["33458"] 	= 25,	--Intellect VI
+	["37091"] 	= 27,	--Intellect VII
+	["37092"] 	= 30, 	--Intellect VIII
+	["63305"] 	= 30 	--Intellect IX
 }
+
+-- https://www.wowhead.com/items/consumables/other/name:scroll?filter=41;1;0 --
 ScrollList_Protection = {
 	["3013"] 	= 1, 	--Protection
-	["1478"] 	= 15, 	--Protection II
-	["4421"] 	= 30, 	--Protection III
-	["10305"] = 45, --Protection IV
-	["27500"] = 60,	--Protection V
-	["33459"] = 70,	--Protection VI
-	["43467"] = 80	--Protection VII
-	--[""] = 80	--Protection VIII	(doesn't exist?)
-	--["63308"] = 80 --Protection IX
+	["1478"] 	= 7, 	--Protection II
+	["4421"] 	= 13, 	--Protection III
+	["10305"] 	= 17, 	--Protection IV
+	["27500"] 	= 21,	--Protection V
+	["33459"] 	= 25,	--Protection VI
+	["43467"] 	= 27,	--Protection VII
+	--[""] 		= 80,	--Protection VIII	(doesn't exist, according to wowhead...)
+	["63308"] 	= 30 	--Protection IX
 }
-ScrollList_Spirit = {
-	["1181"] 	= 1, 	--Spirit
-	["1712"] 	= 15, 	--Spirit II
-	["4424"] 	= 30, 	--Spirit III
-	["10306"] = 45, --Spirit IV
-	["27501"] = 60,	--Spirit V
-	["33460"] = 70,	--Spirit VI	
-	["37097"] = 80	--Spirit VII
-	--["37098"] = 80	--Spirit VIII
-	--["63307"] = 80 --Spirit IX
-}
+
+-- https://www.wowhead.com/items/consumables/other/name:scroll?filter=22;1;0 --
 ScrollList_Stamina = {
 	["1180"] 	= 5,	--Stamina
-	["1711"] 	= 20,	--Stamina II
-	["4422"] 	= 35,	--Stamina III
-	["10307"] = 50,	--Stamina IV
-	["27502"] = 60,	--Stamina V
-	["33461"] = 70,	--Stamina VI
-	["37093"] = 80	--Stamina VII
-	--["37094"] = 80	--Stamina VIII
-	--["63306"] = 80,	--Stamina IX
+	["1711"] 	= 7,	--Stamina II
+	["4422"] 	= 13,	--Stamina III
+	["10307"] 	= 17,	--Stamina IV
+	["27502"] 	= 21,	--Stamina V
+	["33461"] 	= 25,	--Stamina VI
+	["37093"] 	= 27,	--Stamina VII
+	["37094"] 	= 30,	--Stamina VIII
+	["63306"] 	= 30	--Stamina IX
 }
+
+-- https://www.wowhead.com/items/consumables/other/name:scroll?filter=20;1;0 --
 ScrollList_Strength = {	
-	["954"] 	= 10,	--Strength
-	["2289"] 	= 25,	--Strength II
-	["4426"] 	= 40,	--Strength III
-	["10310"] = 55,	--Strength IV
-	["27503"] = 60,	--Strength V
-	["33462"] = 70,	--Strength VI
-	["43465"] = 80 --Strength VII
-	--["43466"] = 80 --Strength VIII
-	--["63304"] = 80 --Strength IX
+	["954"] 	= 1,	--Strength
+	["2289"] 	= 7,	--Strength II
+	["4426"] 	= 13,	--Strength III
+	["10310"] 	= 17,	--Strength IV
+	["27503"] 	= 21,	--Strength V
+	["33462"] 	= 25,	--Strength VI
+	["43465"] 	= 27, 	--Strength VII
+	["43466"] 	= 30, 	--Strength VIII
+	["63304"] 	= 30 	--Strength IX
+}
+
+-- https://www.wowhead.com/items/consumables/other/name:scroll+of+Versatility --
+ScrollList_Versatility = {
+	["1181"] 	= 1, 	--Versatility
+	["1712"] 	= 7, 	--Versatility II
+	["4424"] 	= 13, 	--Versatility III
+	["10306"] 	= 17, 	--Versatility IV
+	["27501"] 	= 21,	--Versatility V
+	["33460"] 	= 25,	--Versatility VI	
+	["37097"] 	= 27,	--Versatility VII
+	["37098"] 	= 30,	--Versatility VIII
+	["63307"] 	= 30 	--Versatility IX
 }

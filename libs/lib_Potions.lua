@@ -23,33 +23,63 @@
 --
 -------------------------------------------------------------------------------
 
+-- NOTE: Doesn't include PVP potions
+
+-- https://www.wowhead.com/items/consumables/potions/name:heal#0+3+18 --
 HealingPotionList = {
 	["118"]		= 0,	-- Minor Healing Potion
-	["858"]		= 3,	-- Lesser Healing Potion
-	["929"]		= 12,	-- Healing Potion
-	["1710"]	= 21,	-- Greater Healing Potion
-	["3928"]	= 35,	-- Superior Healing Potion
-	["13446"]	= 45,	-- Major Healing Potion
-	["32905"]	= 55,	-- Bottled Nethergon Vapor
-	["22829"]	= 55,	-- Super Healing Potion
-	["33447"]	= 70,	-- Runic Healing Potion
-	--["57191"]	= 80,	-- Mythical Healing Potion (Leave this out? only seems to be from fished container)
-	["76097"]	= 85,	-- Master Healing Potion
-	["109223"]	= 91,	-- Healing Tonic
-	["127834"]	= 100,	-- Ancient Healing Potion
+	["858"]		= 2,	-- Lesser Healing Potion
+	["929"]		= 6,	-- Healing Potion
+	["1710"]	= 10,	-- Greater Healing Potion
+	["22829"]	= 10,	-- Super Healing Potion
+	["3928"]	= 15,	-- Superior Healing Potion
+	["13446"]	= 20,	-- Major Healing Potion
+	["33447"]	= 27,	-- Runic Healing Potion
+	["57191"]	= 30,	-- Mythical Healing Potion
+	["76097"]	= 32,	-- Master Healing Potion
+	["109223"]	= 35,	-- Healing Tonic
+	["136569"]	= 40,	-- Aged Health Potion
+	["127834"]	= 40,	-- Ancient Healing Potion
+	["169451"]	= 40,	-- Abyssal Healing Potion
+	["152494"]	= 40,	-- Coastal Healing Potion
+	["152615"]	= 45,	-- Astral Healing Potion
+	["180317"]	= 51,	-- Soulful Healing Potion
+	["171267"]	= 51,	-- Spiritual Healing Potion
+	["187802"]	= 60,	-- Cosmic Healing Potion
 }
 
+-- https://www.wowhead.com/items/consumables/potions/name:mana#0+3+18 --
 ManaPotionList	= {
-	["2455"]	= 5,	-- Minor Mana Potion
-	["3385"]	= 14,	-- Lesser Mana Potion
-	["3827"]	= 22,	-- Mana Potion
-	["6149"]	= 31,	-- Greater Mana Potion
-	["13443"]	= 41,	-- Superior Mana Potion
-	["13444"]	= 49,	-- Major Mana Potion
-	["32902"]	= 55,	-- Bottled Nethergon Energy
-	["22832"]	= 55,	-- Super Mana Potion
-	["33448"]	= 70,	-- Runic Mana Potion
-	["76098"]	= 85,	-- Master Mana Potion
-	["109222"]	= 90,	-- Draenic Mana Potion
-	["127835"]	= 100,	-- Ancient Mana Potion
+	["2455"]	= 3,	-- Minor Mana Potion
+	["3385"]	= 7,	-- Lesser Mana Potion
+	["3827"]	= 10,	-- Mana Potion
+	["13444"]	= 10,	-- Major Mana Potion
+	["6149"]	= 13,	-- Greater Mana Potion
+	["13443"]	= 18,	-- Superior Mana Potion
+	["22832"]	= 23,	-- Super Mana Potion
+	["33448"]	= 27,	-- Runic Mana Potion
+	["57192"]	= 30,	-- Mythical Mana Potion
+	["76098"]	= 32,	-- Master Mana Potion
+	["109222"]	= 35,	-- Draenic Mana Potion
+	["127835"]	= 40,	-- Ancient Mana Potion
+	["152495"]	= 40,	-- Coastal Mana Potion
+	["152619"]	= 45,	-- Astral Mana Potion
+	["180318"]	= 51,	-- Soulful Mana Potion
+	["171268"]	= 51,	-- Spiritual Mana Potion
+}
+
+-- Unused, for the time being
+-- https://www.wowhead.com/items/consumables/potions/name:Rejuvenation#0+3+18 --
+RejuvenationPotionList	= {
+	["2456"]	= 3,	-- Minor Rejuvenation Potion
+	["113585"]	= 10,	-- Iron Horde Rejuvenation Potion
+	["22850"]	= 10,	-- Super Rejuvenation Potion
+	["18253"]	= 21,	-- Major Rejuvenation Potion
+	["40087"]	= 27,	-- Powerful Rejuvenation Potion
+	["57193"]	= 30,	-- Mighty Rejuvenation Potion
+	["76094"]	= 32,	-- Alchemist's Rejuvenation
+	["109226"]	= 35,	-- Draenic Rejuvenation Potion
+	["163082"]	= 40,	-- Coastal Rejuvenation Potion
+	["127836"]	= 40,	-- Ancient Rejuvenation Potion
+	["171269"]	= 51	-- Spiritual Rejuvenation Potion
 }

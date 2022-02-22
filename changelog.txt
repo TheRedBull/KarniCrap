@@ -14,7 +14,11 @@ To do list
 - Try and localize the mod
 - Speed up the list update on the inventory tab (especially when selling items)
 - Sync Blacklist/Whitelist across characters (or all settings?)
-- Mob GUID function will have to be updated when Cataclysm hits.
+
+		Refactor list (TheRedBull)
+		-----------------------------------------------------------------------
+		- lib_Tradeskills
+		- lib_Water
 
 - Ideas: Some ideas for the issue of random stuff you have being crap because it's cheap (mining pick... blacksmithing mats...)
 - Ideas: whitelist tradeskill items? (add when looting)
@@ -38,6 +42,11 @@ Current known issues
 
 Changelog
 -------------------------------------------------------------------------------
+v9.2.0.1
+	- TOC updated for patch 9.2
+	- Fixes multiple bugs with BFA and SL additions
+	- Major refactoring of code to fix many legacy issues, add tons of missing items in from the base libs, and improve performance
+
 v9.1.5.2
 	- Adds BFA and SL tradeskills - looks to be issues with gathering nodes in BFA... will have to investigate
 
